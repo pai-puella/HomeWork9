@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     // Объявить метод «сгенерироватьМассив»
@@ -52,5 +53,12 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
     }
 
-
+    public static void task4() {
+        System.out.println();
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+        System.out.println();
+    }
 }
